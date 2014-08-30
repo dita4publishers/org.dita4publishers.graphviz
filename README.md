@@ -1,8 +1,4 @@
-org.dita4publishers.common.xslt
+org.dita4publishers.graphviz
 ======================
 
-Provides XSLT modules and function libraries appropriate
-for any Open Toolkit transform. Primarily supports the
-D4P map-driven processing framework.
-
-Depends on the org.dita-community-common.xslt plugin <https://github.com/dita-community/org.dita-community.common.xslt>
+Example application of the D4P map-driven processing. Generates GraphViz graphs of the map structure and back-of-the-book index graphs. Requires open-source graphviz tool <http://www.graphviz.org>.
