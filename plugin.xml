@@ -14,4 +14,13 @@
   <feature extension="dita.conductor.transtype.check" value="graphviz" type="txt"/>
   <feature extension="dita.conductor.target.relative" value="build.xml" type="file"/>
 
+  <!-- New way of specifying metadata with parameters contributed by the transtype:
+        https://github.com/dita-ot/dita-ot/issues/1757
+   -->
+  <transtype name="graphviz" extends="d4pCommons" desc="Graphical Map Visualizer (DITA 4 Publishers) - experimental">
+    <param name="graphviz.dot.executable"
+      desc="File path to the Graphviz dot executable.
+      e.g. &quot;C:\\Program Files (x86)\\Graphviz2.32\\bin\\dot.exe&quot;."
+      type="file"/>
+  </transtype>
 </plugin>
