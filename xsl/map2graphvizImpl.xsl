@@ -31,11 +31,11 @@
        
        ============================================================== -->
 
-  <xsl:import href="../../org.dita-community.common.xslt/xsl/dita-support-lib.xsl"/>
-  <xsl:import href="../../org.dita-community.common.xslt/xsl/relpath_util.xsl"/>
-  <xsl:import href="../../org.dita4publishers.common.mapdriven/xsl/indexProcessing.xsl"/>
+  <xsl:import href="plugin:org.dita-community.common.xslt:xsl/dita-support-lib.xsl"/>
+  <xsl:import href="plugin:org.dita-community.common.xslt:xsl/relpath_util.xsl"/>
+  <xsl:import href="plugin:org.dita4publishers.common.mapdriven:xsl/indexProcessing.xsl"/>
   
-  <xsl:import href="../../../xsl/dita2xhtml.xsl"/>
+  <xsl:import href="plugin:org.dita.xhtml:xsl/dita2xhtml.xsl"/>
   
   <xsl:param name="outdir" select="./gv"/>
   <!-- NOTE: Case of OUTEXT parameter matches case used in base HTML
