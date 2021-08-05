@@ -4,7 +4,7 @@
   xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl"
   xmlns:gv="http://dita4publishers.sf.net/functions/graphviz"
   exclude-result-prefixes="xs xd"
-  version="2.0">
+  version="3.0">
   <xd:doc scope="stylesheet">
     <xd:desc>
       <xd:p><xd:b>Created on:</xd:b> Apr 22, 2011</xd:p>

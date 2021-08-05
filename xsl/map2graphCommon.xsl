@@ -9,7 +9,7 @@
   xmlns:relpath="http://dita2indesign/functions/relpath"
   xmlns:gv="http://dita4publishers.sf.net/functions/graphviz"
   exclude-result-prefixes="xs xd df relpath index-terms gv"
-  version="2.0">
+  version="3.0">
   
   <!-- =============================
     generate-nodes mode

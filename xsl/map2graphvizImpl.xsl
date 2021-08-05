@@ -12,7 +12,7 @@
   xmlns:gv="http://dita4publishers.sourceforge.net/functions/graphviz"
 
   exclude-result-prefixes="xs xd df relpath html2 gv enum index-terms"
-  version="2.0">
+  version="3.0">
   
   <!-- =============================================================
     
